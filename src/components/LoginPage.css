@@ -1,0 +1,17 @@
+.bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2192FF;
+}
+
+.card {
+    background-color: white;
+    width: 700px;
+    height: 600px;
+    padding: 100px;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 5%;
+}

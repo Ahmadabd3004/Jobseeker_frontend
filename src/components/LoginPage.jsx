@@ -43,7 +43,7 @@ function LoginPage() {
           throw new Error("error");
         }
         localStorage.setItem("access_token", res.access_token);
-        navigate("/");
+        navigate("/home");
       })
       .catch(() => {
         Swal.fire({

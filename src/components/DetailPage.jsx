@@ -7,7 +7,7 @@ function DetailPage() {
   const navigate = useNavigate();
   return (
     <>
-      <button className="btn-back" onClick={() => navigate("/")}>
+      <button className="btn-back" onClick={() => navigate("/home")}>
         Back
       </button>
       {detailJob && (
